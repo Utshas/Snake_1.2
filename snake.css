@@ -1,0 +1,39 @@
+*{
+	padding:0;
+	margin:0;
+}
+body{
+	background: black;
+}
+td{
+	width:20px; height: 20px;
+}
+.blank{
+	background-color: black;
+}
+.snake{
+	background: white;
+}
+.wall{
+	background-color: green;
+}
+.fruit{
+	background: red;
+}
+
+.fruitBonus{
+	background: orange;
+	animation-name: animateColor;
+    animation-duration: 4.5s;
+}
+@keyframes animateColor {
+    0%   {background-color: orange;}
+    12%  {background-color: #ff0066;}
+    25%  {background-color: #ffcc00;}
+    37% {background-color: #ff0066;}
+    50%  {background-color: #ffcc00;}
+    62% {background-color: #ff0066;}
+    75%  {background-color: #ffcc00;}
+    87% {background-color: #ff0066;}
+    100%  {background-color: #ffcc00;}
+}
