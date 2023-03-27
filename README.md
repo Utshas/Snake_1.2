@@ -6,3 +6,4 @@ Rules:
 2. Eating COLOR CHANGING FRUIT will give bonus 5 points
 3. You can PAUSE the game any time you want
 4. Colliding with wall or own body will make the game over.
+5. Press A-S-D-W for left, down, right and up.
